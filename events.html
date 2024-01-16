@@ -1,0 +1,35 @@
+<!--Name: Joey Han-->
+<!--ID: 1555382-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Home Page</title>
+        <script src="events.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <!--Load the function to get the event names and display them-->
+    <body onload="getEventNames()">
+        <button id="homeButton" onclick="getHome()">Home</button>
+        <!--list of event names-->
+        <div id="eventsName"></div>
+        <br>
+        <button id="addFormButton" onclick="addForm()" hidden>Click Here to Update</button>
+        <!--Clicked event full information-->
+        <div id="clickedEvent" hidden>
+            <h1 id="clickedEventHeading">Clicked Event Full Information:</h1>
+        </div>        
+        <div id="eventsFull"></div>
+        <button id="clickedEventButton" onclick="getWeather()" hidden>Click for event location weather information</button>
+        <div id="weather"></div>
+        <img id="weatherImage" hidden>
+        
+        <!--Form to add new events-->
+        <div id="updateDiv" hidden>
+            <h1 id="updateHeading">Update the current event information:</h1>
+            <label >Notes:</label>    
+            <input type = "text" id="notes" ><br><br>
+            <button id="clickedUpdateButton" onclick="update()">Update</button>
+        </div>
+    </body>
+</html>

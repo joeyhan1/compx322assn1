@@ -1,0 +1,1 @@
+The home button was left unhiddden intentionally.

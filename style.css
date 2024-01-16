@@ -1,0 +1,91 @@
+html {
+    background-image: linear-gradient(to right,#ddd6f3, #faaca8);
+    line-height: 1.6;
+    padding-bottom: 80px;
+}
+
+#eventInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#eventInfo td, #eventInfo th {
+    border: 3px solid black;
+    padding: 8px;
+}
+
+#eventInfo td {
+    background-color: lightblue;
+}
+  
+#eventInfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orange;
+    color: black;
+}
+
+h1#eventListHeading {
+    text-align: center;
+}
+
+div#eventNamesDiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 4px;
+    width: 300px;
+    height: auto;
+    border-color: black;
+    background-image: linear-gradient(to right,#eecda3, #ef629f);
+}
+
+div#updateDiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 4px;
+    width: 500px;
+    height: auto;
+    border-color: black;
+    background-image: linear-gradient(to right,#eecda3, #ef629f);
+}
+
+button#clickedEventButton {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#weather {
+    text-align:center;
+}
+
+img#weatherImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button#homeButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 315px;
+}
+button#addFormButton{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1#clickedEventHeading {
+    text-align: center;
+}
